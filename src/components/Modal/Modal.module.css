@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.modal {
+  position: absolute;
+  align-self: center;
+  left: 35%;
+  top: 10%;
+  border: 1px solid rgb(80, 80, 80);
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 20px;
+  width: 400px;
+  height: 550px;
+}
+
+.titulo {
+  text-align: center;
+  font-family: Dosis;
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.xButton {
+  margin-left: 25px;
+  background-color: rgb(181, 24, 21);
+  box-shadow: 3px 3px rgb(138, 11, 9);
+  color: #fff;
+  font-weight: bold;
+  width: 35px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.xButton:hover {
+  background-color: rgb(142, 51, 50);
+  box-shadow: 3px 3px rgb(113, 35, 34);
+  color: #e5dada;
+}
+.perguntas {
+  border: 1px solid #ff0054;
+}
+
+.saveButton {
+  background-color: #2ec4b6;
+  box-shadow: 3px 3px #00afb9;
+  color: rgb(255, 255, 255);
+  font-family: Dosis;
+  border: none;
+  height: 2.3rem;
+  width: 90px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #0d9184;
+  color: #484a47;
+  box-shadow: 3px 3px #0d6f65;
+}

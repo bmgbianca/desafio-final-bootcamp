@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+body {
+  background-color: rgb(243, 242, 242);
+}
+
+h1,
+h2,
+.divSeletor {
+  text-align: center;
+  font-family: Dosis;
+}
+
+h1 {
+  font-size: 48px;
+  color: #2ec4b6;
+  line-height: 0.7em;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ff0054;
+}
+.results {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-between;
+  border: 1px solid rgb(179, 177, 177);
+  margin: 20px 200px 30px 200px;
+  padding: 5px;
+  font-family: Dosis;
+  font-size: 20px;
+  font-weight: 700;
+  color: #343a40;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.totalizador {
+  justify-self: center;
+}
+
+.income {
+  color: #0ead69;
+}
+
+.expense {
+  color: #f94144;
+}
+.filtro {
+  width: 820px;
+  height: 35px;
+  font-size: 24px;
+  font-family: Dosis;
+  background-color: rgb(243, 242, 242);
+  border: none;
+  border-bottom: 1px solid #ff0054;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.boxes {
+  display: grid;
+  grid-row-gap: 5px;
+}
